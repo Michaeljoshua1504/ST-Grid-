@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid</title>
+  <style media="screen">
+    .wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+      grid-gap:1em;
+      grid-auto-rows:minmax(100px,auto);
+    }
+    .wrapper > div{
+      background:#aaa;
+      padding:1em;
+    }
+    .wrapper > div:nth-child(odd){
+      background:#aaa;
+    }
+    .Box{
+      display:grid;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      grid-gap:2px;
+      grid-auto-rows:70px;
+    }
+    .Box > div{
+      border:1px solid red;
+      padding:1em;
+    }
+  </style>
+
+</head>
+<body>
+<div class="wrapper">
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+</div>
+
+<div class="Box">
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+<div >
+<p>MJ</p>
+</div>
+</div>
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  </p>
+</div>
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+</div>
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+</div>
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+</div>
+</div>
+<h2><a href="index.html">Back</h2>
+</body>
+</html>
